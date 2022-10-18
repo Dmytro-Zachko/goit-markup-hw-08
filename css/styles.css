@@ -1,5 +1,51 @@
 /* css in studio.html */
-/* no header and foooter*/
+.web {
+    color: #2196F3;
+}
+.studio-upper {
+    color: #000000;
+}
+.studio-lower {
+    color: #ffffff;
+}
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+.studio {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.studio:hover,.studio:focus {
+    color: #2196F3;;
+}
+.studio-portfolio {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.studio-contacts {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
 .company {
     font-family: 'Roboto';
     font-style: normal;
@@ -7,10 +53,21 @@
     font-size: 44px;
     line-height: 60px;
     /* or 136% */
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
+}
+.button-meaning {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+.button:active {
+    background: #2196F3;
 }
 .company-features {
     font-family: 'Roboto';
@@ -39,7 +96,6 @@
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.03em;
-        text-align: center;
         color: #212121;
 }
 .our-team {
@@ -48,7 +104,6 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
-        text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
 }
@@ -78,15 +133,139 @@
     letter-spacing: 0.03em;
     color: #fff;
 }
+.footer-contacts {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.header-number {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+.header-adres {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.header-adres:hover,
+.header-adres:focus {
+    color: #2196F3;
+}
 /* css in portfolio.html */
-/* no header and foooter and ul with buttons*/
+.portfolio-studio {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121
+}
+.portfolio-studio:hover,.portfolio-studio:focus{
+    color: #212121;
+}
+.portfolio {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+}
+.portfolio-contacts {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.portfolio-adres {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+.portfolio-adres:hover,.portfolio-adres:focus{
+    color: #2196F3;
+}
+.button-all{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.button-all:hover,.button-all:focus{
+    background-color: #2196F3;
+}
+.button-web {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        background-color: #F5F4FA;
+}
+ .button-app {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        background-color: #F5F4FA;
+    }
+    .button-design {
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.03em;
+            color: #212121;
+            background-color: #F5F4FA;
+        }
+.button-marketing {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        background-color: #F5F4FA;
+    }  
 .card-name {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 36px;
-        /* identical to box height, or 200% */
         letter-spacing: 0.06em;
         color: #212121;
 }
@@ -96,7 +275,6 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-        /* identical to box height, or 188% */
         letter-spacing: 0.03em;
         color: #757575;
 }
