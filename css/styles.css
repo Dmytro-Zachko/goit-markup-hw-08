@@ -65,12 +65,32 @@ font-weight: 500;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
+    margin-top: 200px;
+    margin-bottom: 280px;
+    margin-left: 452px;
+    margin-right: 452px;
+    width: 696px;
+    position: absolute;
 }
 .studio-button {
     background: #2F303A;
+}
+.button {
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
+margin-top: 350px;
+margin-bottom: 200px;
+margin-left: 692px;
+margin-right: 692px;
+width: 216px;
+height: 50px;
 }
 .button-meaning {
     font-family: 'Roboto';
@@ -81,7 +101,9 @@ font-weight: 500;
         letter-spacing: 0.06em;
         color: #FFFFFF;
         cursor: pointer;
-}
+        width: 152px;
+        height: 30px;
+}        
 .button:active,.button:hover {
     background: #2196F3;
 }
@@ -92,6 +114,13 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--tittle-color);
+    width: 270px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.company-section {
+    margin-left: 617px;
+    margin-right: 617px;
 }
 .features-description {
 font-weight: 400;
@@ -99,14 +128,26 @@ font-weight: 400;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--description-color);
+        min-width: 270px;
 }
 .company-work {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         letter-spacing: 0.03em;
+        text-align: center;
         color: var(--tittle-color);
+        margin-bottom: 50px;
+        margin-left: 617px;
+        margin-right: 617px;
+        width: 366px;
+        height: 42px;
 }
+.pic {
+    width: 370px;
+    margin-bottom: 30px;
+}
+
 .team {
     
         background: #F5F4FA;
@@ -117,23 +158,122 @@ font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
         color: var(--tittle-color);
+        margin-bottom: 50px;
+        margin-left: 668px;
+        margin-right: 668px;
+        text-align: center;
+        width: 264px;
 }
 .team-card {
     background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
-.team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    color: var(--tittle-color);
+.team-section {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
-.team-work {
+.team-work-1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+   width: 130px;
+}
+.team-work-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--description-color);
+    margin-right: 62px;
+    margin-left: 63px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 147px;  
+}
+.team-work-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--description-color);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 97px;
+    margin-left: 97px;
+    width: 97px;
+}
+.team-work-4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--description-color);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 91px;
+    margin-left: 92px;
+}
+.team-name-1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--tittle-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+    margin-left: 71px;
+    width: 129px;
+}
+.team-name-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--tittle-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 83px;
+    margin-right: 83px;
+    width: 104px;
+}
+.team-name-3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--tittle-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 130px;
+}
+.team-name-4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--tittle-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 62px;
+    margin-left: 63px;
+    width: 145px;
+}
+.logo-footer {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 1240px;
+    margin-left: 215px;
+    width: 145px;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--tittle-color);
+        text-decoration: none;
 }
 .address {
     font-style: normal;
@@ -142,14 +282,37 @@ font-weight: 700;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #fff;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    margin-right: 1154px;
+    margin-left: 215px;
+    width: 231px;
 }
-.footer-contacts {
+.footer-address {
 font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        margin-right: 1249px;
+        margin-left: 215px;
+        width: 136px;
+}
+.footer-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 60px;
+    margin-right: 1154px;
+    margin-left: 215px;
+    width: 231px;
 }
 .header-number {
 font-weight: 500;
@@ -284,4 +447,15 @@ font-weight: 700;
 }
 .portfolio-footer {
     background: #2F303A;
+}
+/* global geometry of elemts */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+}
+.section {
+    margin-bottom: 94px;
+    margin-top: 94px;
 }
