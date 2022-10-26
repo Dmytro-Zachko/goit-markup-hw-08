@@ -1,7 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Roboto';
     font-style: normal;
     color: #757575;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+.section {
+    margin-bottom: 94px;
+    margin-top: 94px;
 }
 /* колір текста опису color: #757575  */
 /* колір заголовків color: #212121 */
@@ -80,16 +103,11 @@ font-weight: 500;
     background: #2F303A;
 }
 .button {
-display: inline-block;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 32px;
-padding-right: 32px;
+padding: 10px 32px;
 margin-top: 350px;
 margin-bottom: 200px;
 margin-left: 692px;
-margin-right: 692px;
-width: 216px;
+min-width: 216px;
 height: 50px;
 }
 .button-meaning {
@@ -101,8 +119,6 @@ height: 50px;
         letter-spacing: 0.06em;
         color: #FFFFFF;
         cursor: pointer;
-        width: 152px;
-        height: 30px;
 }        
 .button:active,.button:hover {
     background: #2196F3;
@@ -138,14 +154,10 @@ font-weight: 400;
         text-align: center;
         color: var(--tittle-color);
         margin-bottom: 50px;
-        margin-left: 617px;
-        margin-right: 617px;
-        width: 366px;
-        height: 42px;
+        min-width: 366px;
 }
 .pic {
     width: 370px;
-    margin-bottom: 30px;
 }
 
 .team {
@@ -159,10 +171,8 @@ font-weight: 700;
         letter-spacing: 0.03em;
         color: var(--tittle-color);
         margin-bottom: 50px;
-        margin-left: 668px;
-        margin-right: 668px;
         text-align: center;
-        width: 264px;
+        min-width: 264px;
 }
 .team-card {
     background: #FFFFFF;
@@ -179,8 +189,8 @@ font-weight: 700;
     line-height: 1.19;
     color: var(--description-color);
     margin-left: 70px;
-    margin-right: 70px;
     margin-top: 10px;
+    margin-bottom: 30px;
    width: 130px;
 }
 .team-work-2 {
@@ -188,7 +198,6 @@ font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-right: 62px;
     margin-left: 63px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -201,7 +210,6 @@ font-weight: 700;
     color: var(--description-color);
     margin-bottom: 30px;
     margin-top: 10px;
-    margin-right: 97px;
     margin-left: 97px;
     width: 97px;
 }
@@ -210,10 +218,10 @@ font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 10px;
-    margin-right: 91px;
     margin-left: 92px;
+    width: 87px;
 }
 .team-name-1 {
     font-weight: 500;
@@ -222,7 +230,6 @@ font-weight: 700;
     color: var(--tittle-color);
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-right: 70px;
     margin-left: 71px;
     width: 129px;
 }
@@ -234,7 +241,6 @@ font-weight: 700;
     margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 83px;
-    margin-right: 83px;
     width: 104px;
 }
 .team-name-3 {
@@ -245,7 +251,6 @@ font-weight: 700;
     margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 70px;
-    margin-right: 70px;
     width: 130px;
 }
 .team-name-4 {
@@ -255,15 +260,13 @@ font-weight: 700;
     color: var(--tittle-color);
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-right: 62px;
     margin-left: 63px;
     width: 145px;
 }
-.logo-footer {
+.logo-studio {
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 25px;
     margin-bottom: 20px;
-    margin-right: 1240px;
     margin-left: 215px;
     width: 145px;
     font-family: 'Raleway';
@@ -282,35 +285,30 @@ font-weight: 700;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #fff;
-    margin-top: 20px;
     margin-bottom: 9px;
-    margin-right: 1154px;
     margin-left: 215px;
     width: 231px;
 }
-.footer-address {
+.studio-address {
 font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        margin-top: 9px;
+        
         margin-bottom: 9px;
-        margin-right: 1249px;
         margin-left: 215px;
-        width: 136px;
+        width: 231px;
 }
-.footer-number {
+.studio-number {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-top: 6px;
     margin-bottom: 60px;
-    margin-right: 1154px;
     margin-left: 215px;
     width: 231px;
 }
@@ -378,10 +376,16 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
         color: #FFFFFF;
         cursor: pointer;
-        
+        text-align: center;
+        border: 1px transparent;
+        min-width: 73px;
+        height: 38px;
+        border-radius: 4px;
 }
 .button-all:hover,.button-all:focus{
     background-color: #2196F3;
+    border: 1px transparent;
+    border-radius: 4px;
 }
 .button-web {
     font-family: 'Roboto';
@@ -393,6 +397,11 @@ font-family: 'Roboto';
         color: var(--tittle-color);
         background-color: #F5F4FA;
         cursor: pointer;
+        text-align: center;
+            border: 1px transparent;
+            border-radius: 4px;
+            min-width: 125px;
+            height: 38px;
 }
  .button-app {
         font-family: 'Roboto';
@@ -404,6 +413,11 @@ font-family: 'Roboto';
         color: var(--tittle-color);
         background-color: #F5F4FA;
         cursor: pointer;
+        text-align: center;
+            border: 1px transparent;
+            border-radius: 4px;
+            min-width: 118px;
+            height: 38px;
     }
     .button-design {
             font-family: 'Roboto';
@@ -415,6 +429,11 @@ font-family: 'Roboto';
             color: var(--tittle-color);
             background-color: #F5F4FA;
             cursor: pointer;
+            text-align: center;
+                border: 1px transparent;
+                border-radius: 4px;
+                height: 38px;
+                min-width: 103px;
         }
 .button-marketing {
         font-family: 'Roboto';
@@ -426,36 +445,254 @@ font-family: 'Roboto';
         color: var(--tittle-color);
         background-color: #F5F4FA;
         cursor: pointer;
+        text-align: center;
+        border: 1px transparent;
+        border-radius: 4px;
+        height: 38px;
+        min-width: 130px;
     }  
 .cards {
     background: #FFFFFF;
         border: 1px solid #EEEEEE;
+        margin-top: 50px;
 }
-.name {
+.name-1 {
 font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: var(--tittle-color)
-}
-.description {
+        color: var(--tittle-color);
+        margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+    }
+.name-2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--tittle-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    min-width: 322px;
+ }
+ .name-3 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-4 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-5 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-6 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-7 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-8 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+ .name-9 {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: var(--tittle-color);
+    margin-top: 20px;
+        margin-bottom: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+ }
+.description-1 {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.03em;
-        color: var(--description-color)
+        color: var(--description-color);
+        margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+    margin-top: 4px;
+    margin-left: 24px;
+    min-width: 322px;
+ }
+.description-5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-7 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-8 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
+}
+.description-9 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 20px;
+        margin-top: 4px;
+        margin-left: 24px;
+        min-width: 322px;
 }
 .portfolio-footer {
     background: #2F303A;
 }
-/* global geometry of elemts */
-h1,h2,h3,h4,h5,h6 {
-    margin: 0;
+.logo-portfolio {
+display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 215px;
+    width: 145px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--tittle-color);
+    text-decoration: none;
 }
-.container {
-    width: 1200px;
+.portfolio-address {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    margin-left: 215px;
+    width: 231px;
 }
-.section {
-    margin-bottom: 94px;
-    margin-top: 94px;
+.portfolio-number {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 215px;
+    width: 231px;
 }
