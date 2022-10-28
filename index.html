@@ -18,47 +18,50 @@
 </head>
 
 <body>
+    <div class="container">
     <!-- Верхня лінія -->
-    <header class="container">
+    <header class="main-nav">
         <a href="studio.html" class="logo"> <span class="web">Web</span><span class="studio-upper">Studio</span></a>
         <nav>
-            <ul class="list">
-                <li><a href="index.html" class="studio">Студія</a></li>
-                <li><a href="./portfolio.html" class="studio-portfolio">Портфоліо</a></li>
-                <li><a href="index.html" class="studio-contacts">Контакти</a></li>
+            <ul class="list site-nav">
+                <li class="item"><a href="index.html" class="studio">Студія</a></li>
+                <li class="item"><a href="./portfolio.html" class="links">Портфоліо</a></li>
+                <li class="item"><a href="index.html" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="list">
-            <li><a href="index.html" class="header-adres">info@devstudio.com</a></li>
-            <li><a href="index.html" class="header-number">+38 096 111 11 11</a></li>
+        <ul class="list nav-contact">
+            <li class="item"><a href="index.html" class="header-adres">info@devstudio.com</a></li>
+            <li class="item"><a href="index.html" class="header-number">+38 096 111 11 11</a></li>
         </ul>
     </header>
+    </div>
     <main>
         <!-- Шапка -->
         <div class="studio-button">
-            <section class="section">
+            <section>
                 <h1 class="company">Ефективні рішення для <br> вашого бізнесу</h1>
                 <button type="button" class="button"><span class="button-meaning">Замовити послугу</span></button>
             </section>
         </div>
+        <div class="container">
         <!-- Особливості -->
         <section class="section company-section">
-            <ul class="list">
-                <li>
+            <ul class="list company-description">
+                <li class="item">
                     <h3 class="company-features">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="features-description">Ідейні міркування, і навіть початок <br> повсякденної роботи з формування <br>
                         позиції.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="company-features">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="features-description">Завдання організації, особливо рамки <br> і місце навчання кадрів тягне у
                         себе.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="company-features">ПЛАНУВАННЯ</h3>
                     <p class="features-description">Так само консультація з широким <br> активом значною мірою зумовлює.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="company-features">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="features-description">Значимість цих проблем настільки <br> очевидна, що реалізація планових <br>
                         завдань.</p>
@@ -68,22 +71,22 @@
         <!-- Чим ми займаємося -->
         <section class="section company-place">
             <h2 class="company-work">Чим ми займаємося</h2>
-            <ul class="list">
-                <li>
+            <ul class="list work-pic">
+                <li class="item">
                     <img src="./images/box-1.jpg" alt="програмування" width="370" class="pic">
                 </li>
-                <li>
+                <li class="item">
                     <img src="./images/box-2.jpg" alt="проектування" width="370" class="pic">
                 </li>
-                <li>
+                <li class="item">
                     <img src="./images/box-3.jpg" alt="дизайн" width="370" class="pic">
                 </li>
             </ul>
         </section>
         <!-- Наша команда -->
-        <section class="teams-ection">
+        <section class="teams-section section">
             <h2 class="our-team">Наша команда</h2>
-            <ul class="list">
+            <ul class="list team-container">
                 <li class="team-card">
                     <img src="./images/team-card-1.jpg" alt="робітник компанії" width="270">
                     <h3 class="team-name-1">Ігор Дем'яненко</h3>
@@ -107,6 +110,7 @@
             </ul>
         </section>
     </main>
+    </div>
     <footer class="studio-footer">
         <a href="studio.html" class="logo-studio"> <span class="web">Web</span><span class="studio-lower">Studio</span></a>
         <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
