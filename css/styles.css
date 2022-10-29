@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6,p {
 .main-nav {
     display: flex;
     align-items: center;
-    
+    border-bottom: 1px solid #ECECEC;
 }
 .site-nav {
     display: flex;
@@ -127,25 +127,22 @@ font-weight: 500;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 200px;
-    margin-bottom: 280px;
-    margin-left: 452px;
-    margin-right: 452px;
     width: 696px;
-    position: absolute;
+    margin: 0px auto;
+    margin-bottom: 30px;
 }
 .studio-button {
     background: #2F303A;
+    padding: 200px 0px;
 }
 .button {
 padding: 10px 32px;
-margin-top: 350px;
-margin-bottom: 200px;
-margin-left: 692px;
 min-width: 216px;
 height: 50px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin: 0px auto;
+    display: block;
 }
 .button-meaning {
     font-family: 'Roboto';
@@ -170,8 +167,8 @@ font-weight: 700;
     text-transform: uppercase;
     color: var(--tittle-color);
     width: 270px;
-    margin-bottom: 10px;
-    margin-right: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
 }
 .company-description {
     display: flex;
@@ -221,8 +218,7 @@ font-weight: 400;
     width: 370px;
 }
 .team {
-    
-        background: #F5F4FA;
+background: #F5F4FA;
 }
 .our-team {
 font-weight: 700;
@@ -242,92 +238,97 @@ font-weight: 700;
 .team-section {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
+        background: #F5F4FA;
+}
+.member-discription-1 {
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 70px;
+padding-right: 70px;
+text-align: center;
+}
+.member-discription-2 {
+padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 62px;
+    padding-right: 61px;
+    text-align: center;
+}
+.member-discription-3 {
+padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+.member-discription-4 {
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 63px;
+padding-left: 61px;
+text-align: center;
 }
 .team-work-1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-left: 70px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-   width: 130px;
+    letter-spacing: 0.03em;
 }
 .team-work-2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-left: 63px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    width: 147px;  
+    letter-spacing: 0.03em;
 }
 .team-work-3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-bottom: 30px;
-    margin-top: 10px;
-    margin-left: 97px;
-    width: 97px;
+    letter-spacing: 0.03em;
 }
 .team-work-4 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--description-color);
-    margin-bottom: 0px;
-    margin-top: 10px;
-    margin-left: 92px;
-    width: 87px;
+    letter-spacing: 0.03em;
 }
 .team-name-1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--tittle-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 71px;
-    width: 129px;
+    letter-spacing: 0.03em;
 }
 .team-name-2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--tittle-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 83px;
-    width: 104px;
+    letter-spacing: 0.03em;
 }
 .team-name-3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--tittle-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 70px;
-    width: 130px;
+    letter-spacing: 0.03em;
 }
 .team-name-4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--tittle-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 63px;
-    width: 145px;
+    letter-spacing: 0.03em;
 }
 .logo-studio {
     display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    margin-left: 215px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 215px;
     width: 145px;
     font-family: 'Raleway';
         font-style: normal;
@@ -345,7 +346,7 @@ font-weight: 700;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #fff;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
     margin-left: 215px;
     width: 231px;
 }
@@ -356,9 +357,8 @@ font-weight: 400;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        
-        margin-bottom: 9px;
-        margin-left: 215px;
+        padding-bottom: 9px;
+        padding-left: 215px;
         width: 231px;
 }
 .studio-number {
@@ -368,8 +368,8 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-bottom: 60px;
-    margin-left: 215px;
+    padding-top: 9px;
+    padding-left: 215px;
     width: 231px;
 }
 .header-number {
@@ -428,13 +428,16 @@ font-weight: 500;
 .portfolio-adres:hover,.portfolio-adres:focus{
     color: #2196F3;
 }
+.color {
+    background-color: #F5F5F5;
+}
 .button-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .button-container .item {
     margin-right: 8px;
-    margin-bottom: 50px;
 }
 .button-container .item:last-child {
     margin-right: 0px;
@@ -452,7 +455,7 @@ font-family: 'Roboto';
         cursor: pointer;
         text-align: center;
         border: 1px transparent;
-        min-width: 73px;
+        padding: 6px 22px;
         height: 38px;
         border-radius: 4px;
 }
@@ -474,8 +477,8 @@ font-family: 'Roboto';
         text-align: center;
             border: 1px transparent;
             border-radius: 4px;
-            min-width: 125px;
             height: 38px;
+            padding: 6px 22px;
 }
  .button-app {
         font-family: 'Roboto';
@@ -490,7 +493,7 @@ font-family: 'Roboto';
         text-align: center;
             border: 1px transparent;
             border-radius: 4px;
-            min-width: 118px;
+            padding: 6px 22px;
             height: 38px;
     }
     .button-design {
@@ -506,7 +509,7 @@ font-family: 'Roboto';
             text-align: center;
                 border: 1px transparent;
                 border-radius: 4px;
-                height: 38px;
+                padding: 6px 22px;
                 min-width: 103px;
         }
 .button-marketing {
@@ -523,11 +526,11 @@ font-family: 'Roboto';
         border: 1px transparent;
         border-radius: 4px;
         height: 38px;
-        min-width: 130px;
+        padding: 6px 22px;
     } 
     .flex-container {
      display: flex;
-     flex-wrap: wrap;   
+     flex-wrap: wrap; 
     }
     .flex-element {
         width: 370px;
@@ -545,15 +548,18 @@ margin-bottom: 0px;
     background: #FFFFFF;
         border: 1px solid #EEEEEE;
 }
+.sale-discription {
+    padding-bottom: 20px;
+        padding-top: 4px;
+        padding-left: 24px;
+        padding-right: 24px;
+}
 .name-1 {
 font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--tittle-color);
-        margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
     }
 .name-2 {
@@ -562,9 +568,6 @@ font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--tittle-color);
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;
     min-width: 322px;
  }
  .name-3 {
@@ -573,9 +576,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
  .name-4 {
@@ -584,9 +584,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
  .name-5 {
@@ -595,9 +592,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
  .name-6 {
@@ -606,9 +600,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
  .name-7 {
@@ -617,9 +608,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
  .name-8 {
@@ -627,10 +615,7 @@ font-weight: 700;
      font-size: 18px;
      line-height: 2;
      letter-spacing: 0.06em;
-     color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
+     color: var(--tittle-color);;
         min-width: 322px;
  }
  .name-9 {
@@ -639,9 +624,6 @@ font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
      color: var(--tittle-color);
-    margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px;
         min-width: 322px;
  }
 .description-1 {
@@ -650,9 +632,6 @@ font-weight: 700;
         line-height: 1.9;
         letter-spacing: 0.03em;
         color: var(--description-color);
-        margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-2 {
@@ -661,9 +640,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-3 {
@@ -672,9 +648,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-4 {
@@ -683,9 +656,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-    margin-top: 4px;
-    margin-left: 24px;
     min-width: 322px;
  }
 .description-5 {
@@ -694,9 +664,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-6 {
@@ -705,9 +672,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-7 {
@@ -716,9 +680,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-8 {
@@ -727,9 +688,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .description-9 {
@@ -738,9 +696,6 @@ font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 20px;
-        margin-top: 4px;
-        margin-left: 24px;
         min-width: 322px;
 }
 .portfolio-footer {
@@ -748,9 +703,9 @@ font-weight: 700;
 }
 .logo-portfolio {
 display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    margin-left: 215px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 215px;
     width: 145px;
     font-family: 'Raleway';
     font-style: normal;
@@ -768,9 +723,9 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 9px;
-    margin-left: 215px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 215px;
     width: 231px;
 }
 .portfolio-number {
@@ -780,8 +735,7 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 60px;
-    margin-left: 215px;
+    padding-top: 9px;
+    padding-left: 215px;
     width: 231px;
 }
