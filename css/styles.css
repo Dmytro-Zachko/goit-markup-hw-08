@@ -245,25 +245,24 @@ font-weight: 700;
 padding-top: 30px;
 padding-bottom: 30px;
 text-align: center;
-margin-bottom: 10px;
+
 }
 .member-discription-2 {
 padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    
 }
 .member-discription-3 {
 padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    
 }
 .member-discription-4 {
 padding-top: 30px;
 padding-bottom: 30px;
 text-align: center;
-margin-bottom: 10px;
 }
 .team-work-1 {
     font-weight: 400;
@@ -299,6 +298,7 @@ margin-bottom: 10px;
     line-height: 1.19;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-name-2 {
     font-weight: 500;
@@ -306,6 +306,7 @@ margin-bottom: 10px;
     line-height: 1.19;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-name-3 {
     font-weight: 500;
@@ -313,6 +314,7 @@ margin-bottom: 10px;
     line-height: 1.19;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-name-4 {
     font-weight: 500;
@@ -320,6 +322,7 @@ margin-bottom: 10px;
     line-height: 1.19;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .logo-studio {
     display: inline-block;
