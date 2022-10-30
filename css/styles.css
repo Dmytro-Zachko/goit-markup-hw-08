@@ -19,13 +19,12 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-
+     }
 .section {
     padding-bottom: 94px;
     padding-top: 94px;
@@ -68,6 +67,7 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
+    
 }
 .site-nav {
     display: flex;
@@ -189,7 +189,7 @@ font-weight: 700;
 .team-container .team-card:last-child {
     margin-right: 0px;
 }
-.team-section
+.team-section,
 .features-description {
 font-weight: 400;
     font-size: 14px;
@@ -198,6 +198,9 @@ font-weight: 400;
     color: var(--description-color);
     min-width: 270px;
     padding-top: 10px;
+}
+.section-description {
+    padding-top: 94px;
 }
 .company-work {
         font-weight: 700;
@@ -326,9 +329,7 @@ text-align: center;
 }
 .logo-studio {
     display: inline-block;
-    padding-top: 25px;
     padding-bottom: 20px;
-    margin-left: 215px;
     width: 145px;
     font-family: 'Raleway';
         font-style: normal;
@@ -347,7 +348,6 @@ text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
     padding-bottom: 9px;
-    margin-left: 215px;
     width: 231px;
 }
 .studio-address {
@@ -358,7 +358,6 @@ font-weight: 400;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
         padding-bottom: 9px;
-        margin-left: 215px;
         width: 231px;
 }
 .studio-number {
@@ -368,8 +367,6 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 9px;
-    margin-left: 215px;
     width: 231px;
 }
 .header-number {
@@ -381,7 +378,7 @@ font-weight: 500;
         text-decoration: none;
 }
 .header-adres {
-font-weight: 400;
+font-weight: 500;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -395,6 +392,8 @@ font-weight: 400;
 }
 .studio-footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 /* css in portfolio.html */
 .portfolio-studio:hover,.portfolio-studio:focus{
@@ -699,12 +698,12 @@ font-weight: 700;
 }
 .portfolio-footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-portfolio {
 display: inline-block;
-    padding-top: 25px;
     padding-bottom: 20px;
-    margin-left: 215px;
     width: 145px;
     font-family: 'Raleway';
     font-style: normal;
@@ -722,9 +721,7 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 9px;
     padding-bottom: 9px;
-    margin-left: 215px;
     width: 231px;
 }
 .portfolio-number {
@@ -734,7 +731,5 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 9px;
-    margin-left: 215px;
     width: 231px;
 }
