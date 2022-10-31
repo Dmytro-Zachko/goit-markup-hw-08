@@ -29,6 +29,20 @@ h1,h2,h3,h4,h5,h6,p {
     padding-bottom: 94px;
     padding-top: 94px;
 }
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    )
+    ,url(../images/Img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* колір текста опису color: #757575  */
 /* колір заголовків color: #212121 */
 /* колір основного тексту та footer color: #ffffff */
@@ -130,10 +144,7 @@ font-weight: 500;
     width: 696px;
     margin: 0px auto;
     margin-bottom: 30px;
-}
-.studio-button {
-    background: #2F303A;
-    padding: 200px 0px;
+    padding-top: 200px;
 }
 .button {
 padding: 10px 32px;
@@ -326,6 +337,32 @@ text-align: center;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+}
+.client {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.footer {
+    display: flex;
+    align-items: baseline;
+}
+.join {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 156px;
+        width: 116px;
 }
 .logo-studio {
     display: inline-block;
