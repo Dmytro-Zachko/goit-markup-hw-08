@@ -139,6 +139,21 @@ font-weight: 500;
 .nav-contact .item + .item {
   margin-left: 50px;  
 }
+.smartphone {
+    width: 10px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #757575;
+}
+.envelope:hover {
+    fill: #2196F3;
+}
 .company {
     font-weight: 900;
     font-size: 44px;
@@ -175,6 +190,46 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+}
+.antenna-container {
+    background: #F5F4FA;
+        border-radius: 4px;
+        padding: 25px 100px;
+        margin-bottom: 30px;
+}
+.antenna {
+width: 70px;
+height: 70px;
+}
+.clock-container {
+background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+.clock {
+width: 70px;
+height: 70px;
+}
+.diagram-container {
+background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+.diagram {
+    width: 70px;
+    height: 70px;
+}
+.astronaut-container {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+.astronaut {
+    width: 70px;
+    height: 70px;
 }
 .company-features {
 font-weight: 700;
@@ -344,15 +399,170 @@ text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 }
+.insagram {
+width: 20px;
+height: 20px;
+}
+.twitter {
+width: 20px;
+    height: 20px;
+}
+.facebook {
+width: 20px;
+    height: 20px;
+}
+.linkedin {
+width: 20px;
+    height: 20px;
+}
+.ellipse {
+    background-color: red;
+    display: inline-block;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+.ellipse-container:hover {
+    fill: #2196F3;
+}
 .client {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+}
+.group-1 {
+    width: 41px;
+    height: 46.7px;
+    fill: #AFB1B8;
+}
+.container-group-1 {
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+padding-top: 23px;
+padding-bottom: 22.3px;
+padding-right: 64px;
+padding-left: 64px;
+}
+.container-group-1:hover {
+    border: 1px solid #2196F3;
+}
+.group-1:hover {
+    fill: #2196F3;
+}
+.group-2 {
+    width: 40px;
+    height: 52px;
+    fill: #AFB1B8;
+}
+.container-group-2 {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-left: 30px;
+    padding-top: 19px;
+        padding-bottom: 21px;
+        padding-left: 65px;
+        padding-right: 65px;
+}
+.container-group-2:hover {
+    border: 1px solid #2196F3;
+}
+
+.group-2:hover {
+    fill: #2196F3;
+ }
+.group-3 {
+    width: 43.46px;
+    height: 41.18px;
+    fill: #AFB1B8;
+}
+.container-group-3 {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-left: 30px;
+    padding-top: 24.7px;
+        padding-bottom: 26.12px;
+        padding-left: 61.8px;
+        padding-right: 61.8px;
+}
+.container-group-3:hover {
+    border: 1px solid #2196F3;
+}
+
+.group-3:hover {
+    fill: #2196F3;
+ }
+.group-4 {
+    width: 84.44px;
+    height: 40.62px;
+    fill: #AFB1B8;;
+}
+.container-group-4 {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-left: 30px;
+    padding-top: 24.7px;
+        padding-bottom: 26.268px;
+        padding-left: 43px;
+        padding-right: 43px;
+}
+.container-group-4:hover {
+    border: 1px solid #2196F3;
+}
+
+.group-4:hover {
+    fill: #2196F3;
+}
+.group-5 {
+    width: 62.54px;
+    height: 45.43px;
+    fill: #AFB1B8;
+}
+.container-group-5 {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-left: 30px;
+    padding-top: 22.77px;
+        padding-bottom: 23.8px;
+        padding-left: 54px;
+        padding-right: 56px;
+}
+.container-group-5:hover {
+    border: 1px solid #2196F3;
+}
+
+.group-5:hover {
+    fill: #2196F3;
+}
+.group-6 {
+    width: 93.79px;
+    height: 43.93px;
+    fill: #AFB1B8;
+}
+.container-group-6 {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-left: 30px;
+    padding-top: 22.77px;
+        padding-bottom: 25.31px;
+        padding-left: 38px;
+        padding-right: 37px;
+}
+.container-group-6:hover {
+    border: 1px solid #2196F3;
+}
+.group-6:hover {
+    fill: #2196F3;
+}
+.client-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 .footer {
     display: flex;
@@ -363,7 +573,7 @@ text-align: center;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.15;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -423,7 +633,7 @@ font-weight: 500;
 .header-adres {
 font-weight: 500;
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.15;
         letter-spacing: 0.03em;
         color: var(--description-color);
         text-decoration: none;
@@ -500,12 +710,12 @@ font-family: 'Roboto';
         padding: 6px 22px;
         height: 38px;
         border-radius: 4px;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-all:hover,.button-all:focus{
     background-color: #2196F3;
     border: 1px transparent;
     border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-web {
     font-family: 'Roboto';
@@ -523,6 +733,11 @@ font-family: 'Roboto';
             height: 38px;
             padding: 6px 22px;
 }
+.button-web:hover, .button-web:focus {
+        border: 1px transparent;
+            border-radius: 4px;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
  .button-app {
         font-family: 'Roboto';
         font-style: normal;
@@ -539,6 +754,11 @@ font-family: 'Roboto';
             padding: 6px 22px;
             height: 38px;
     }
+.button-app:hover,.button-app:focus {
+    border: 1px transparent;
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
     .button-design {
             font-family: 'Roboto';
             font-style: normal;
@@ -555,6 +775,11 @@ font-family: 'Roboto';
                 padding: 6px 22px;
                 min-width: 103px;
         }
+.button-design:hover,.button-design:focus {
+    border: 1px transparent;
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button-marketing {
         font-family: 'Roboto';
         font-style: normal;
@@ -570,7 +795,12 @@ font-family: 'Roboto';
         border-radius: 4px;
         height: 38px;
         padding: 6px 22px;
-    } 
+    }
+.button-marketing:hover,.button-marketing:focus {
+    border: 1px transparent;
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
     .flex-container {
      display: flex;
      flex-wrap: wrap; 
@@ -590,6 +820,10 @@ margin-bottom: 0px;
 .cards {
     background: #FFFFFF;
         border: 1px solid #EEEEEE;
+}
+.cards:hover {
+    border: 1px solid #EEEEEE;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .sale-discription {
     padding-bottom: 20px;
