@@ -398,33 +398,60 @@ text-align: center;
     color: var(--tittle-color);
     letter-spacing: 0.03em;
     margin-bottom: 10px;
-}
-.insagram {
+ }
+ .social-links {
+    text-decoration: none;
+ }
+.instagram {
 width: 20px;
 height: 20px;
+fill: #AFB1B8;
 }
 .twitter {
 width: 20px;
     height: 20px;
+    fill: #AFB1B8;
 }
 .facebook {
 width: 20px;
     height: 20px;
+    fill: #AFB1B8;
 }
 .linkedin {
 width: 20px;
     height: 20px;
+    fill: #AFB1B8;
+}
+.instagram:hover,
+.instagram:focus {
+    fill: #FFFFFF;
+}
+.twitter:hover,.twitter:focus {
+    fill: #FFFFFF;;
+}
+.facebook:hover,
+.facebook:focus {
+    fill: #FFFFFF;
+}
+.linkedin:hover,
+.linkedin:focus {
+    fill: #FFFFFF;
+    ;
+}
+.ellipse:hover {
+    background-color: #2196F3;
 }
 .ellipse {
-    background-color: red;
+    background-color: #FFFFFF;
     display: inline-block;
     padding: 12px;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 16px;
 }
-.ellipse-container:hover {
-    fill: #2196F3;
-}
+
 .client {
     font-family: 'Roboto';
         font-style: normal;
