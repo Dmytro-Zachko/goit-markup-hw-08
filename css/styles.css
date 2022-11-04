@@ -80,14 +80,16 @@ h1,h2,h3,h4,h5,h6,p {
 .main-nav {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
  }
 .container-2 {
-border-bottom: 1px solid #ECECEC;
-    position: absolute;
-    width: 1518px;
-    height: 0px;
-    left: 0px;
-    top: 80px;
+    display: flex;
+        align-items: center;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .site-nav {
     display: flex;
@@ -109,6 +111,10 @@ font-weight: 500;
         display: block;
     width: 72px;
 }
+.links:hover,
+.links:focus {
+    color: #2196F3;
+}
 .link {
     font-weight: 500;
     font-size: 14px;
@@ -118,6 +124,10 @@ font-weight: 500;
     text-decoration: none;
     display: block;
     width: 64px;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
 }
 .studio {
     font-weight: 500;
@@ -130,7 +140,7 @@ font-weight: 500;
         width: 45px;
 }
 .studio:hover,.studio:focus {
-    color: #2196F3;;
+    color: #2196F3;
 }
 .nav-contact {
     display: flex;
@@ -151,12 +161,19 @@ font-weight: 500;
     margin-right: 10px;
     fill: #757575;
 }
+.envelope:hover,
+.envelope:focus {
+    fill: #2196F3;
+}
 .item-envelope {
     display: flex;
     align-items: center;
 }
-.envelope:hover,
-.envelope:focus{
+.item-envelope a:focus-within svg {
+    fill: #2196F3;
+}
+.item-envelope:hover,
+.item-envelope:focus-within{
     fill: #2196F3;
 }
 .company {
@@ -173,13 +190,13 @@ font-weight: 500;
     padding-top: 200px;
 }
 .button {
-padding: 10px 32px;
 min-width: 216px;
 height: 50px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin: 0px auto;
     display: block;
+    background: #2196F3;
 }
 .button-meaning {
     font-family: 'Roboto';
@@ -299,7 +316,7 @@ font-weight: 400;
     margin-right: 30px;
     width: 370px;
 }
-.team-section {
+.teams-section {
 background: #F5F4FA; }
 .our-team {
 font-weight: 700;
@@ -432,7 +449,7 @@ width: 20px;
     fill: #FFFFFF;
 }
 .twitter:hover,.twitter:focus {
-    fill: #FFFFFF;;
+    fill: #FFFFFF;
 }
 .facebook:hover,
 .facebook:focus {
@@ -441,10 +458,17 @@ width: 20px;
 .linkedin:hover,
 .linkedin:focus {
     fill: #FFFFFF;
-    ;
 }
-.ellipse:hover {
+.team-card a:focus ellipse {
     background-color: #2196F3;
+}
+.team-card a:focus svg {
+    fill: #FFFFFF;
+}
+
+.ellipse:hover,
+.ellipse:focus {
+background-color: #2196F3;
 }
 .ellipse {
     background-color: #FFFFFF;
@@ -454,6 +478,7 @@ width: 20px;
     height: 44px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-top: 16px;
 }
 .ellipse-2 {
 background-color: rgba(255, 255, 255, 0.1);
@@ -470,9 +495,7 @@ background-color: rgba(255, 255, 255, 0.1);
     align-items: center;
    margin-top: -20px;
 }
-.ellipse:last-child {
-    margin-right: 0px;
-}
+
 .ellipse-2:hover,.ellipse-2:focus {
     background-color: #2196F3;
 }
@@ -485,39 +508,42 @@ background-color: rgba(255, 255, 255, 0.1);
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 50px;
+}
+.group a:focus svg {
+    fill: #2196F3;
+}
+.group:focus {
+    border: 1px solid #2196F3;
 }
 .group-1 {
-    width: 41px;
-    height: 46.7px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 .container-group-1 {
     border: 1px solid #AFB1B8;
         border-radius: 4px;
-padding-top: 23px;
-padding-bottom: 22.3px;
-padding-right: 64px;
-padding-left: 64px;
+padding: 16px 32px;
 }
-.container-group-1:hover {
+.container-group-1:hover,
+.container-group-1:focus {
     border: 1px solid #2196F3;
 }
-.group-1:hover {
+.group-1:hover,
+.group-1:focus {
     fill: #2196F3;
 }
 .group-2 {
-    width: 40px;
-    height: 52px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 .container-group-2 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding-top: 19px;
-        padding-bottom: 21px;
-        padding-left: 65px;
-        padding-right: 65px;
+    padding: 16px 32px;
 }
 .container-group-2:hover {
     border: 1px solid #2196F3;
@@ -527,18 +553,15 @@ padding-left: 64px;
     fill: #2196F3;
  }
 .group-3 {
-    width: 43.46px;
-    height: 41.18px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 .container-group-3 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding-top: 24.7px;
-        padding-bottom: 26.12px;
-        padding-left: 61.8px;
-        padding-right: 61.8px;
+    padding: 16px 32px;
 }
 .container-group-3:hover {
     border: 1px solid #2196F3;
@@ -548,18 +571,15 @@ padding-left: 64px;
     fill: #2196F3;
  }
 .group-4 {
-    width: 84.44px;
-    height: 40.62px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;;
 }
 .container-group-4 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding-top: 24.7px;
-        padding-bottom: 26.268px;
-        padding-left: 43px;
-        padding-right: 43px;
+padding: 16px 32px;
 }
 .container-group-4:hover {
     border: 1px solid #2196F3;
@@ -569,20 +589,18 @@ padding-left: 64px;
     fill: #2196F3;
 }
 .group-5 {
-    width: 62.54px;
-    height: 45.43px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 .container-group-5 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding-top: 22.77px;
-        padding-bottom: 23.8px;
-        padding-left: 54px;
-        padding-right: 56px;
+   padding: 16px 32px;
 }
-.container-group-5:hover {
+.container-group-5:hover
+.container-group-5:focus {
     border: 1px solid #2196F3;
 }
 
@@ -590,19 +608,16 @@ padding-left: 64px;
     fill: #2196F3;
 }
 .group-6 {
-    width: 93.79px;
-    height: 43.93px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 .container-group-6 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding-top: 22.77px;
-        padding-bottom: 25.31px;
-        padding-left: 38px;
-        padding-right: 37px;
-}
+padding: 16px 32px;
+ }
 .container-group-6:hover {
     border: 1px solid #2196F3;
 }
@@ -613,11 +628,13 @@ padding-left: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
-.footer {
+.foot {
     display: flex;
-    align-items: baseline;
+   align-items: baseline;
+}
+.footer-container {
+    display: inline-block;
 }
 .join {
     font-family: 'Roboto';
@@ -628,8 +645,10 @@ padding-left: 64px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-left: 156px;
         width: 116px;
+}
+.soc a:focus ellipse {
+background-color: #2196F3;
 }
 .logo-studio {
     display: inline-block;
@@ -651,7 +670,6 @@ padding-left: 64px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #fff;
-    padding-bottom: 9px;
     width: 231px;
     margin-right: 70px;
 }
@@ -733,6 +751,10 @@ font-weight: 500;
 .portfolio-adres:hover,.portfolio-adres:focus{
     color: #2196F3;
 }
+.portfolio-contacts:hover,
+.portfolio-contacts:focus {
+    color: #2196F3;
+}
 .color {
     background-color: #F5F5F5;
 }
@@ -786,10 +808,13 @@ font-family: 'Roboto';
             height: 38px;
             padding: 6px 22px;
 }
-.button-web:hover, .button-web:focus {
-        border: 1px transparent;
-            border-radius: 4px;
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.button-web:hover,
+.button-web:focus {
+    background-color: #2196F3;
+    border: 1px transparent;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
 }
  .button-app {
         font-family: 'Roboto';
@@ -807,10 +832,13 @@ font-family: 'Roboto';
             padding: 6px 22px;
             height: 38px;
     }
-.button-app:hover,.button-app:focus {
+.button-app:hover,
+.button-app:focus {
+    background-color: #2196F3;
     border: 1px transparent;
-        border-radius: 4px;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
 }
     .button-design {
             font-family: 'Roboto';
@@ -828,10 +856,13 @@ font-family: 'Roboto';
                 padding: 6px 22px;
                 min-width: 103px;
         }
-.button-design:hover,.button-design:focus {
+.button-design:hover,
+.button-design:focus {
+    background-color: #2196F3;
     border: 1px transparent;
-        border-radius: 4px;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
 }
 .button-marketing {
         font-family: 'Roboto';
@@ -849,10 +880,13 @@ font-family: 'Roboto';
         height: 38px;
         padding: 6px 22px;
     }
-.button-marketing:hover,.button-marketing:focus {
+.button-marketing:hover,
+.button-marketing:focus {
+    background-color: #2196F3;
     border: 1px transparent;
-        border-radius: 4px;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
 }
     .flex-container {
      display: flex;
