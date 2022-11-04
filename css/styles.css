@@ -466,9 +466,7 @@ width: 20px;
 .linkedin:focus {
     fill: #FFFFFF;
 }
-.team-card a:focus ellipse {
-    background-color: #2196F3;
-}
+
 .team-card a:focus svg {
     fill: #FFFFFF;
 }
