@@ -151,7 +151,12 @@ font-weight: 500;
     margin-right: 10px;
     fill: #757575;
 }
-.envelope:hover {
+.item-envelope {
+    display: flex;
+    align-items: center;
+}
+.envelope:hover,
+.envelope:focus{
     fill: #2196F3;
 }
 .company {
@@ -423,7 +428,7 @@ width: 20px;
     fill: #AFB1B8;
 }
 .instagram:hover,
-.instagram:focus {
+.instagram:focus{
     fill: #FFFFFF;
 }
 .twitter:hover,.twitter:focus {
@@ -449,9 +454,28 @@ width: 20px;
     height: 44px;
     border-radius: 50%;
     margin-right: 10px;
-    margin-top: 16px;
 }
-
+.ellipse-2 {
+background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+   margin-top: -20px;
+}
+.ellipse:last-child {
+    margin-right: 0px;
+}
+.ellipse-2:hover,.ellipse-2:focus {
+    background-color: #2196F3;
+}
 .client {
     font-family: 'Roboto';
         font-style: normal;
@@ -629,6 +653,7 @@ padding-left: 64px;
     color: #fff;
     padding-bottom: 9px;
     width: 231px;
+    margin-right: 70px;
 }
 .studio-address {
 font-weight: 400;
@@ -639,6 +664,7 @@ font-weight: 400;
         text-decoration: none;
         padding-bottom: 9px;
         width: 231px;
+        margin-top: 9px;
 }
 .studio-number {
     font-weight: 400;
