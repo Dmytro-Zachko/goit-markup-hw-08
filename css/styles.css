@@ -165,17 +165,7 @@ font-weight: 500;
 .envelope:focus {
     fill: #2196F3;
 }
-.item-envelope {
-    display: flex;
-    align-items: center;
-}
-.item-envelope a:focus-within svg {
-    fill: #2196F3;
-}
-.item-envelope:hover,
-.item-envelope:focus-within{
-    fill: #2196F3;
-}
+
 .company {
     font-weight: 900;
     font-size: 44px;
@@ -424,21 +414,38 @@ text-align: center;
  .social-links {
     text-decoration: none;
  }
+ .social-links:hover .instagram,
+ .social-links:focus .instagram {
+    fill: #FFFFFF;
+ }
 .instagram {
 width: 20px;
 height: 20px;
 fill: #AFB1B8;
+border: 12px;
 }
+ .social-links:hover .twitter,
+ .social-links:focus .twitter {
+     fill: #FFFFFF;
+ }
 .twitter {
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
 }
+ .social-links:hover .facebook,
+ .social-links:focus .facebook {
+     fill: #FFFFFF
+ }
 .facebook {
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
 }
+ .social-links:hover .linkedin,
+ .social-links:focus .linkedin {
+     fill: #FFFFFF;
+ }
 .linkedin {
 width: 20px;
     height: 20px;
@@ -466,29 +473,29 @@ width: 20px;
     fill: #FFFFFF;
 }
 
-.ellipse:hover,
-.ellipse:focus {
+.social-links:hover,
+.social-links:focus {
 background-color: #2196F3;
 }
-.ellipse {
+.social-links {
     background-color: #FFFFFF;
-    display: inline-block;
     padding: 12px;
+    display: inline-block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 16px;
 }
-.ellipse-2 {
+.social-links-2 {
 background-color: rgba(255, 255, 255, 0.1);
     display: inline-block;
     padding: 12px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    margin-right: 10px;
     margin-top: 20px;
+    margin-right: 5px;
 }
 .footer-container {
     display: flex;
@@ -496,7 +503,7 @@ background-color: rgba(255, 255, 255, 0.1);
    margin-top: -20px;
 }
 
-.ellipse-2:hover,.ellipse-2:focus {
+.social-links-2:hover,.social-links-2:focus {
     background-color: #2196F3;
 }
 .client {
@@ -522,12 +529,12 @@ background-color: rgba(255, 255, 255, 0.1);
     fill: #AFB1B8;
 }
 .container-group-1 {
-    border: 1px solid #AFB1B8;
-        border-radius: 4px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
 padding: 16px 32px;
 }
 .container-group-1:hover,
-.container-group-1:focus {
+.container-group-1:focus{
     border: 1px solid #2196F3;
 }
 .group-1:hover,
@@ -672,6 +679,7 @@ background-color: #2196F3;
     color: #fff;
     width: 231px;
     margin-right: 70px;
+    margin-bottom: 9px;
 }
 .studio-address {
 font-weight: 400;
@@ -680,9 +688,8 @@ font-weight: 400;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        padding-bottom: 9px;
+        margin-bottom: 9px;
         width: 231px;
-        margin-top: 9px;
 }
 .studio-number {
     font-weight: 400;
@@ -692,6 +699,7 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     width: 231px;
+    margin-top: 9px;
 }
 .header-number {
 font-weight: 500;
@@ -710,9 +718,17 @@ font-weight: 500;
         text-decoration: none;
         width: 135px;
 }
-.header-adres:hover,
-.header-adres:focus {
+.header-adres:focus,
+.header-adres:hover {
     color: #2196F3;
+}
+.header-adres a:focus svg,
+.header-adres a:hover svg{
+    fill: #2196F3;
+}
+.item-envelope a:focus svg,
+.item-envelope a:hover svg {
+    fill: #2196F3;
 }
 .studio-footer {
     background: #2F303A;
@@ -770,7 +786,6 @@ font-weight: 500;
     margin-right: 0px;
     margin-left: 0px;
 }
-
 .button-all{
 font-family: 'Roboto';
     font-style: normal;
@@ -778,7 +793,7 @@ font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--tittle-color);
         cursor: pointer;
         text-align: center;
         border: 1px transparent;
@@ -791,6 +806,7 @@ font-family: 'Roboto';
     border: 1px transparent;
     border-radius: 4px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
 }
 .button-web {
     font-family: 'Roboto';
@@ -1086,7 +1102,7 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     width: 231px;
 }
 .portfolio-number {
@@ -1097,4 +1113,5 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     width: 231px;
+    margin-top: 9px;
 }
