@@ -155,6 +155,10 @@ font-weight: 500;
     margin-left: 30px;
     margin-right: 10px;
 }
+.smartphone-container {
+    display: flex;
+    align-items: center;
+}
 .envelope {
     width: 16px;
     height: 12px;
@@ -206,7 +210,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .antenna-container {
     background: #F5F4FA;
         border-radius: 4px;
-        padding: 25px 100px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            height: 120px;
         margin-bottom: 30px;
 }
 .antenna {
@@ -216,7 +224,11 @@ height: 70px;
 .clock-container {
 background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
     margin-bottom: 30px;
 }
 .clock {
@@ -226,7 +238,11 @@ height: 70px;
 .diagram-container {
 background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
     margin-bottom: 30px;
 }
 .diagram {
@@ -236,8 +252,12 @@ background: #F5F4FA;
 .astronaut-container {
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
 }
 .astronaut {
     width: 70px;
@@ -477,8 +497,9 @@ background-color: #2196F3;
 }
 .social-links {
     background-color: #FFFFFF;
-    padding: 12px;
-    display: inline-block;
+    display: inline-flex;
+        justify-content: center;
+        align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -487,8 +508,9 @@ background-color: #2196F3;
 }
 .social-links-2 {
 background-color: rgba(255, 255, 255, 0.1);
-    display: inline-block;
-    padding: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -529,7 +551,11 @@ background-color: rgba(255, 255, 255, 0.1);
 .container-group-1 {
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-padding: 16px 32px;
+width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-group-1:hover,
 .container-group-1:focus{
@@ -548,7 +574,11 @@ padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding: 16px 32px;
+    width: 170px;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .container-group-2:hover {
     border: 1px solid #2196F3;
@@ -566,7 +596,11 @@ padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-    padding: 16px 32px;
+    width: 170px;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .container-group-3:hover {
     border: 1px solid #2196F3;
@@ -584,7 +618,11 @@ padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-padding: 16px 32px;
+width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-group-4:hover {
     border: 1px solid #2196F3;
@@ -602,7 +640,11 @@ padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-   padding: 16px 32px;
+width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-group-5:hover
 .container-group-5:focus {
@@ -621,7 +663,11 @@ padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-padding: 16px 32px;
+width: 170px;
+height: 92px;
+display: flex;
+justify-content: center;
+align-items: center;
  }
 .container-group-6:hover {
     border: 1px solid #2196F3;
@@ -686,8 +732,10 @@ font-weight: 400;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        margin-bottom: 9px;
         width: 231px;
+}
+.footer-item {
+    margin-bottom: 9px;
 }
 .studio-number {
     font-weight: 400;
@@ -697,7 +745,6 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     width: 231px;
-    margin-top: 9px;
 }
 .header-number {
 font-weight: 500;
@@ -706,6 +753,10 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: var(--description-color);
         text-decoration: none;
+        width: 142px;
+}
+.item-smartphone {
+    width: 142px;
 }
 .header-adres {
 font-weight: 500;
