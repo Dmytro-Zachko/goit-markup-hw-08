@@ -102,6 +102,7 @@ h1,h2,h3,h4,h5,h6,p {
     margin-right: 0px;
 }
 .links {
+    position: relative;
 font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -110,27 +111,7 @@ font-weight: 500;
     text-decoration: none;
         display: block;
     width: 72px;
-}
-.links-2 {
-    position: relative;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--tittle-color);
-    text-decoration: none;
-    display: block;
-    width: 72px;
-}
-.links-2::after {
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    left: 0;
-    top: 42px;
-    content: '';
-    background: #2196F3;
-    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links:hover,
 .links:focus {
@@ -145,6 +126,7 @@ font-weight: 500;
     text-decoration: none;
     display: block;
     width: 64px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus {
@@ -164,26 +146,16 @@ font-weight: 500;
         text-decoration: none;
         display: block;
         width: 45px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-2 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--tittle-color);
-    text-decoration: none;
-    display: block;
-    width: 45px;
-}
-.studio::after {
+.current::after {
     position: absolute;
+    left: 0;
+    top:42px;
+    content: '';
     width: 100%;
     height: 4px;
-    left: 0;
-    top: 42px;
-    content: '';
-    background: #2196F3;
-        border-radius: 2px;
+    background-color: #2196F3;
 }
 .studio:hover,.studio:focus {
     color: #2196F3;
@@ -414,8 +386,27 @@ font-weight: 400;
         margin-bottom: 50px;
         min-width: 366px;
 }
-.pic {
-    width: 370px;
+.pic-position {
+    position: relative;
+}
+.overlay-2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+}
+.overlay-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
 }
 .work-pic {
     display: flex;
@@ -603,6 +594,8 @@ background-color: #2196F3;
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-2 {
 background-color: rgba(255, 255, 255, 0.1);
@@ -614,6 +607,7 @@ background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     margin-top: 20px;
     margin-right: 5px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container {
     display: flex;
@@ -654,6 +648,8 @@ width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-1:hover,
 .container-group-1:focus{
@@ -677,6 +673,8 @@ width: 170px;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-2:hover {
     border: 1px solid #2196F3;
@@ -699,6 +697,8 @@ width: 170px;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-3:hover {
     border: 1px solid #2196F3;
@@ -721,6 +721,8 @@ width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-4:hover {
     border: 1px solid #2196F3;
@@ -743,6 +745,8 @@ width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-5:hover
 .container-group-5:focus {
@@ -766,6 +770,8 @@ height: 92px;
 display: flex;
 justify-content: center;
 align-items: center;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 .container-group-6:hover {
     border: 1px solid #2196F3;
@@ -864,6 +870,8 @@ font-weight: 500;
         color: var(--description-color);
         text-decoration: none;
         width: 135px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .header-adres:focus,
 .header-adres:hover {
@@ -947,6 +955,9 @@ font-family: 'Roboto';
         padding: 6px 22px;
         height: 38px;
         border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-all:hover,.button-all:focus{
     background-color: #2196F3;
@@ -970,6 +981,9 @@ font-family: 'Roboto';
             border-radius: 4px;
             height: 38px;
             padding: 6px 22px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-web:hover,
 .button-web:focus {
@@ -994,6 +1008,9 @@ font-family: 'Roboto';
             border-radius: 4px;
             padding: 6px 22px;
             height: 38px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .button-app:hover,
 .button-app:focus {
@@ -1018,6 +1035,9 @@ font-family: 'Roboto';
                 border-radius: 4px;
                 padding: 6px 22px;
                 min-width: 103px;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 .button-design:hover,
 .button-design:focus {
@@ -1042,6 +1062,9 @@ font-family: 'Roboto';
         border-radius: 4px;
         height: 38px;
         padding: 6px 22px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .button-marketing:hover,
 .button-marketing:focus {
@@ -1079,6 +1102,9 @@ margin-bottom: 0px;
     padding-bottom: 20px;
         padding-top: 20px;
         padding-left: 24px;
+}
+.sale {
+    text-decoration: none;
 }
 .name-1 {
 font-weight: 700;
