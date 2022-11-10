@@ -222,6 +222,8 @@ font-weight: 500;
     background-color:rgba(0, 0, 0, 0.2);
     min-width: 100%;
    min-height: 100%;
+   opacity: 1;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
     opacity: 0;
@@ -532,6 +534,7 @@ width: 20px;
 height: 20px;
 fill: #AFB1B8;
 border: 12px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
  .social-links:hover .twitter,
  .social-links:focus .twitter {
@@ -541,6 +544,7 @@ border: 12px;
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
  .social-links:hover .facebook,
  .social-links:focus .facebook {
@@ -550,6 +554,7 @@ width: 20px;
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
  .social-links:hover .linkedin,
  .social-links:focus .linkedin {
@@ -559,6 +564,7 @@ width: 20px;
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .instagram:hover,
 .instagram:focus{
@@ -639,6 +645,7 @@ background-color: rgba(255, 255, 255, 0.1);
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-1 {
 border: 1px solid #AFB1B8;
@@ -663,6 +670,7 @@ width: 170px;
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-2 {
     border: 1px solid #AFB1B8;
@@ -676,17 +684,20 @@ width: 170px;
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container-group-2:hover {
+.container-group-2:hover,
+.container-group-2:focus {
     border: 1px solid #2196F3;
 }
 
-.group-2:hover {
+.group-2:hover,
+.group-2:focus {
     fill: #2196F3;
  }
 .group-3 {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-3 {
     border: 1px solid #AFB1B8;
@@ -700,17 +711,20 @@ width: 170px;
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container-group-3:hover {
+.container-group-3:hover,
+.container-group-3:focus {
     border: 1px solid #2196F3;
 }
 
-.group-3:hover {
+.group-3:hover,
+.group-3:focus {
     fill: #2196F3;
  }
 .group-4 {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;;
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-4 {
     border: 1px solid #AFB1B8;
@@ -724,42 +738,46 @@ width: 170px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container-group-4:hover {
+.container-group-4:hover,
+.container-group-4:focus {
     border: 1px solid #2196F3;
 }
 
-.group-4:hover {
+.group-4:hover,
+.group-4:focus {
     fill: #2196F3;
 }
 .group-5 {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+       transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-group-5 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-left: 30px;
-width: 170px;
+    width: 170px;
     height: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.container-group-5:hover
+.container-group-5:hover,
 .container-group-5:focus {
     border: 1px solid #2196F3;
 }
 
-.group-5:hover {
+.group-5:hover,
+.group-5:focus {
     fill: #2196F3;
 }
 .group-6 {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .container-group-6 {
     border: 1px solid #AFB1B8;
@@ -770,13 +788,14 @@ height: 92px;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
  }
-.container-group-6:hover {
+.container-group-6:hover,
+.container-group-6:focus {
     border: 1px solid #2196F3;
 }
-.group-6:hover {
+.group-6:hover,
+.group-6:focus {
     fill: #2196F3;
 }
 .client-container {
@@ -1093,6 +1112,8 @@ margin-bottom: 0px;
 .cards {
     background: #FFFFFF;
         border: 1px solid #EEEEEE;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
 }
 .cards:hover {
     border: 1px solid #EEEEEE;
@@ -1105,6 +1126,46 @@ margin-bottom: 0px;
 }
 .sale {
     text-decoration: none;
+}
+.product-thumb::before {
+    position: absolute;
+    display: inline-block;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(33, 150, 243, 0.9);
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cards:hover .product-thumb::before {
+    transform: translateY(0);
+    opacity: 1;
+}
+.product-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.product-description {
+    position: absolute;
+    width: 322px;
+    height: 168px;
+    padding: 63px 24px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        transform: translateY(135%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
+}
+.cards:hover .product-description {
+    transform: translateY(0);
+    opacity: 1;
 }
 .name-1 {
 font-weight: 700;
