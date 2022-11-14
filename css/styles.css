@@ -259,6 +259,76 @@ font-weight: 500;
     width: 11px;
     height: 11px;
 }
+.close:hover {
+    fill: #2196F3;
+}
+form {
+    width: 448px;
+    outline: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.modal-tittle {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-top: 40px;
+        margin-bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.agree {
+    display: flex;
+}
+.agree-description {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+.button-send {
+    width: 200px;
+    background-color: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.send {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+.agree-link {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
 .button {
 min-width: 216px;
 height: 50px;
