@@ -71,7 +71,7 @@
                     <div class="form-group">
                     <label for="Ім'я" class="name">Ім'я</label>
                     <div class="form-group-1">
-                    <input type="text" name="Ім'я" id="Ім'я" class="person-position" placeholder=" ">
+                    <input type="text" name="Ім'я" id="Ім'я" required class="person-position" placeholder=" ">
                     <svg class="person">
                     <use href="./images/symbol-defs.svg#person"></use>
                     </svg>
@@ -80,7 +80,7 @@
                     <div class="form-group">
                     <label for="Телефон" class="tel">Телефон</label>
                     <div class="form-group-1">
-                        <input type="text" name="Телефон" id="Телефон" class="person-position" placeholder=" ">
+                        <input type="text" name="Телефон" id="Телефон" required class="person-position" placeholder=" ">
                         <svg class="person">
                             <use href="./images/symbol-defs.svg#phone"></use>
                         </svg>
@@ -89,7 +89,7 @@
                         <div class="form-group">
                     <label for="Пошта" class="mail">Пошта</label>
                     <div class="form-group-1">
-                        <input type="text" name="Пошта" id="Пошта" class="person-position" placeholder=" ">
+                        <input type="text" name="Пошта" id="Пошта" required class="person-position" placeholder=" ">
                         <svg class="person">
                             <use href="./images/symbol-defs.svg#email"></use>
                         </svg>
@@ -98,10 +98,13 @@
                         <label for="Коментар" class="comment">Коментар</label>
                         <textarea name="comment" id="Коментар"  placeholder="Введіть текст"></textarea>
                         <div class="agree">
-                        <input type="checkbox" name="agree">
+                            <label for="agree" class="label">
+                        <input type="checkbox" name="agree" class="checkbox" id="agree">
+                        <span class="checkbox-icon"></span>
                         <p class="agree-description">Погоджуюся з розсилкою та приймаю</p>
                         <a href="" class="agree-link">Умови договору</a>
-                        </div>
+                            </label>
+                    </div>
                         <div class="button-2">
                         <button type="submit" class="button-send">
                          <p class="send">Відправити</p>
