@@ -24,6 +24,7 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 4px;
     }
 .container {
     width: 1200px;
@@ -261,6 +262,7 @@ font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .x {
     width: 11px;
@@ -402,6 +404,8 @@ input {
     flex-direction: row;
     align-items: center;
     user-select: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 .comment {
 width: 58px;
@@ -455,13 +459,14 @@ textarea::placeholder {
             cursor: pointer;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        outline: none;
+        border: 1px solid transparent;
 }
 .button-send:hover,
 .button-send:focus {
     background-color: #188CE8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        
 }
 .button-2 {
     margin-left: 120px;
@@ -492,6 +497,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin: 0px auto;
     display: block;
     background: #2196F3;
+    border: 1px solid transparent;
 }
 .button-meaning {
     font-family: 'Roboto';
@@ -1067,9 +1073,13 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         background-color: #2F303A;
+        color: #fff;
         margin-right: 12px;
         width: 358px;
         height: 50px;
+        padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 16px;
 }
 .subscribe-input::placeholder {
     font-family: 'Roboto';
@@ -1079,9 +1089,6 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
         line-height: 1.25;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 16px;
 }
 .subscribe-button {
     position: relative;
@@ -1090,6 +1097,8 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
         border-radius: 4px;
         width: 200px;
         height: 50px;
+        border: 1px solid transparent;
+        cursor: pointer;
 }
 .subscribe-discription {
     font-family: 'Roboto';
