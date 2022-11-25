@@ -1,0 +1,26 @@
+.web {
+    color: #2196F3;
+}
+
+.studio-upper {
+    color: #000000;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.main-nav__logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--tittle-color);
+    text-decoration: none;
+    width: 145px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}

@@ -1,0 +1,61 @@
+.nav-contact {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+}
+
+.nav-contact .item+.item {
+    margin-left: 50px;
+}
+
+.nav-contact__smartphone {
+    width: 10px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.smartphone-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-contact__adres {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    text-decoration: none;
+    width: 135px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover {
+        color: #2196F3;
+    }
+
+    &:focus {
+        color: #2196F3;
+    }
+}
+
+.nav-contact__number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+    text-decoration: none;
+    width: 142px;
+}
+
+.nav-contact__envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.item-envelope a:focus svg,
+.item-envelope a:hover svg {
+    fill: #2196F3;
+}

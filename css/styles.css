@@ -739,6 +739,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
      fill: #FFFFFF;
  }
 .twitter {
+    height: 20px;
 width: 20px;
     height: 20px;
     fill: #AFB1B8;
@@ -832,14 +833,16 @@ background-color: rgba(255, 255, 255, 0.1);
         letter-spacing: 0.03em;
         color: #212121;
         margin-bottom: 50px;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__group-1 {
+.client__group {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__container-group-1 {
+.client__container-group {
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 width: 170px;
@@ -847,158 +850,23 @@ width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__container-group-1:hover,
-.client__container-group-1:focus{
+.client__container-group:hover,
+.client__container-group:focus{
     border: 1px solid #2196F3;
 }
-.client__group-1:hover,
-.client__group-1:focus {
-    fill: #2196F3;
-}
-.client__group a:focus svg {
-    fill: #2196F3;
-}
+.client__group:hover,
 .client__group:focus {
-    border: 1px solid #2196F3;
-}
-.client__group {
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__group-2 {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-2 {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-    width: 170px;
-        height: 92px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-2:hover,
-.client__container-group-2:focus {
-    border: 1px solid #2196F3;
-}
-
-.client__group-2:hover,
-.client__group-2:focus {
-    fill: #2196F3;
- }
-.client__group-3 {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-3 {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-    width: 170px;
-        height: 92px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-3:hover,
-.client__container-group-3:focus {
-    border: 1px solid #2196F3;
-}
-
-.client__group-3:hover,
-.client__group-3:focus {
-    fill: #2196F3;
- }
-.client__group-4 {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-4 {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-width: 170px;
-    height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-4:hover,
-.client__container-group-4:focus {
-    border: 1px solid #2196F3;
-}
-
-.client__group-4:hover,
-.client__group-4:focus {
     fill: #2196F3;
 }
-.client__group-5 {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-       transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__container-group-5 {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-    width: 170px;
-    height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-.client__container-group-5:hover,
-.client__container-group-5:focus {
-    border: 1px solid #2196F3;
-}
-
-.client__group-5:hover,
-.client__group-5:focus {
+.clients__group a:focus svg {
     fill: #2196F3;
 }
-.client__group-6 {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-.client__container-group-6 {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-width: 170px;
-height: 92px;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
- }
-.client__container-group-6:hover,
-.client__container-group-6:focus {
+.clients__group:focus {
     border: 1px solid #2196F3;
-}
-.client__group-6:hover,
-.client__group-6:focus {
-    fill: #2196F3;
 }
 .client__container {
     display: flex;

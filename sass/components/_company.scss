@@ -1,0 +1,69 @@
+.company-features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--tittle-color);
+    width: 270px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.company-description {
+    display: flex;
+}
+
+.company-description .item {
+    margin-right: 30px;
+    width: 270px;
+}
+
+.company-description .item:last-child {
+    margin-right: 0px;
+}
+.company__work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--tittle-color);
+    margin-bottom: 50px;
+    min-width: 366px;
+}
+
+.company__pic-position {
+    position: relative;
+}
+
+.company__overlay-2 {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.company__overlay-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.company__work-pic {
+    display: flex;
+}
+
+.company__work-pic .item {
+    margin-right: 30px;
+    width: 370px;
+}

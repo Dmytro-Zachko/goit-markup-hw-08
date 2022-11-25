@@ -1,0 +1,23 @@
+.sale__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--tittle-color);
+    min-width: 322px;
+}
+
+.sale__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    min-width: 322px;
+}
+.sale {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    text-decoration: none;
+}
