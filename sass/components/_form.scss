@@ -6,7 +6,7 @@ form {
 
 .form__group {
     margin-bottom: 10px;
-    display: flex;
+    // display: flex;
     flex-direction: column;
 }
 
@@ -83,7 +83,7 @@ textarea {
 
 .form__group-1 {
     position: relative;
-    display: flex;
+    // display: flex;
     flex-direction: column;
     &:focus-within>.form__person {
             fill: #2196F3;

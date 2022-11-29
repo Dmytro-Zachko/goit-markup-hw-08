@@ -6,9 +6,16 @@
     color: #000000;
 }
 .main-nav {
-    display: flex;
+    // display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+    border:  1px solid #ECECEC;;
+    @media (min-width: 480px) and (max-width:768px) {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+                 @media (min-width: 0px) {
+                    border: none;
+                 }
 }
 
 .main-nav__logo {

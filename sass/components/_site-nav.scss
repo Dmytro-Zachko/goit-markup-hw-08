@@ -1,7 +1,10 @@
 .site-nav {
-    display: flex;
+    // display: flex;
     margin-left: 93px;
-}
+    @media (min-width: 480px) and (max-width:768px) {
+            display: none;
+        }
+    }
 
 .site-nav__item {
     margin-right: 50px;
