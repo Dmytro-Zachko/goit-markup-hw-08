@@ -7,7 +7,12 @@
     color: var(--tittle-color);
     width: 270px;
     padding-bottom: 10px;
-    padding-right: 30px;
+    margin-left: 95px;
+    @media (min-width: 480px) and (max-width:768px) {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .company-description {
@@ -66,4 +71,9 @@
 .company__work-pic .item {
     margin-right: 30px;
     width: 370px;
+}
+.company {
+    @media (min-width: 320px) and (max-width: 1200px) {
+        display: none;
+    }
 }

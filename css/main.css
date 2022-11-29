@@ -19,8 +19,11 @@ body {
   font-style: normal;
   color: #757575;
   display: inline-block;
-  width: 100%;
-  height: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
 }
 
 :root {
@@ -50,10 +53,31 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
 
 .section-description {
@@ -848,7 +872,18 @@ textarea::placeholder {
   color: var(--tittle-color);
   width: 270px;
   padding-bottom: 10px;
-  padding-right: 30px;
+  margin-left: 95px;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .company-features {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .company-description .item {
@@ -902,6 +937,12 @@ textarea::placeholder {
   width: 370px;
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .company {
+    display: none;
+  }
+}
+
 .features-description {
   font-weight: 400;
   font-size: 14px;
@@ -915,6 +956,7 @@ textarea::placeholder {
   .features-description {
     display: block;
     width: 450px;
+    margin-bottom: 30px;
   }
 }
 
@@ -949,12 +991,57 @@ textarea::placeholder {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__card {
+    width: 450px;
+  }
+}
 
 .team-section {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #F5F4FA;
+}
+
+.team__member-discription-1 {
+  text-align: center;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__member-discription-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.team__member-discription-2 {
+  text-align: center;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__member-discription-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.team__member-discription-3 {
+  text-align: center;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__member-discription-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.team__member-discription-4 {
+  text-align: center;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__member-discription-4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .team__work {
@@ -974,11 +1061,23 @@ textarea::placeholder {
   margin-bottom: 10px;
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .team__pic {
+    width: 450px;
+  }
+}
+
 .social-links {
   text-decoration: none;
 }
 .social-links:hover, .social-links:focus {
   fill: #FFFFFF;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .social-links {
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
 }
 
 .instagram {
@@ -1114,8 +1213,6 @@ textarea::placeholder {
   fill: #AFB1B8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 .client__group:hover, .client__group:focus {
   fill: #2196F3;
@@ -1128,13 +1225,11 @@ textarea::placeholder {
 .client__container-group {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1147,6 +1242,11 @@ textarea::placeholder {
 .client__container-group:hover, .client__container-group:focus {
   border: 1px solid #2196F3;
 }
+@media (min-width: 480px) and (max-width: 768px) {
+  .client__container-group {
+    margin-bottom: 30px;
+  }
+}
 
 .client__container {
   -webkit-box-pack: center;
@@ -1155,6 +1255,23 @@ textarea::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .client__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .clients__group {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
 }
 
 .foot {

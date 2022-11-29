@@ -9,6 +9,7 @@
     @media (min-width: 480px) and (max-width:768px) {
     display: block;
             width: 450px;
+            margin-bottom: 30px;
     }
 }
 .team-section {
@@ -51,6 +52,9 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    @media (min-width: 480px) and (max-width:768px) {
+        width: 450px;
+    }
 }
 
 .team-section {
@@ -60,18 +64,35 @@
 }
 
 .team__member-discription-1 {
-
+text-align: center;
+@media (min-width: 480px) and (max-width:768px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 }
 
 .team__member-discription-2 {
-
+text-align: center;
+@media (min-width: 480px) and (max-width:768px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .team__member-discription-3 {
-
+text-align: center;
+@media (min-width: 480px) and (max-width:768px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .team__member-discription-4 {
+    text-align: center;
+@media (min-width: 480px) and (max-width:768px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .team__work {
@@ -89,4 +110,9 @@
     color: var(--tittle-color);
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+}
+.team__pic {
+    @media (min-width: 480px) and (max-width:768px) {
+            width: 450px;
+        }
 }

@@ -17,12 +17,10 @@
     height: 60px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    flex-wrap: wrap;
 &:hover,
     &:focus {
         fill: #2196F3;
     }
-    
 }
 .clients__group a:focus svg {
     fill: #2196F3;
@@ -30,10 +28,9 @@
 .client__container-group {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    width: 170px;
+    width: 210px;
     height: 92px;
     display: inline-flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -41,6 +38,9 @@
 &:hover,&:focus {
         border: 1px solid #2196F3;
     }
+        @media (min-width: 480px) and (max-width:768px) {
+            margin-bottom: 30px;
+        }
     }
 
 .client__container {
@@ -48,3 +48,15 @@
         align-items: center;
 }
     
+.client__list {
+    @media (min-width: 480px) and (max-width:768px) { 
+display: flex;
+flex-wrap: wrap;
+
+  } 
+}
+.clients__group {
+    @media (min-width: 480px) and (max-width:768px) {
+            flex-basis: 50%;
+        }
+ }

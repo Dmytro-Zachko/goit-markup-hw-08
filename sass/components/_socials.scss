@@ -4,6 +4,10 @@
         &:focus {
             fill: #FFFFFF;
         }
+                @media (min-width: 480px) and (max-width:768px) {
+                    margin-bottom: 24px;
+                    margin-top: 16px;
+                }
 }
 
 .instagram {

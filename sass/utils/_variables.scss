@@ -17,8 +17,9 @@ body {
     font-style: normal;
     color: #757575;
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 100%;
+    }
 }
 :root {
     --tittle-color: #212121;
