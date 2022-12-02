@@ -1,5 +1,4 @@
 .studio__overlay {
-    height: 600px;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -11,24 +10,43 @@
     background-position: center;
     @media (min-width: 480px) and (max-width:768px) {
         width: 100%;
-            height: 400px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+    @media (min-width: 768px) and (max-width:1199px) {
+        height: 459px;
+    }
+    @media (min-width: 1200px) {
+        width: 100%;
+        height: 600px;
+            background-size: cover;
+            background-position: center;
     }
 }
 
 .studio__company {
-    font-weight: 900;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #fff;
-    width: 696px;
-    @media (min-width: 480px) and (max-width:768px) {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    @media (min-width: 480px) and (max-width:1199px) {
         width: 360px;
         margin: 0 auto;
         padding-top: 118px;
         padding-bottom: 30px;
     }
+         @media (min-width: 1200px) {
+                font-size: 44px;
+                line-height: 1.36;
+                color: #FFFFFF;
+                    margin: 0 auto;
+                    padding-top: 118px;
+                    padding-bottom: 30px;
+         }
 }
 
 .backdrop {

@@ -28,6 +28,12 @@
                 <li class="site-nav__item"><a href="#" class="site-nav__link">Контакти</a></li>
             </ul>
         </nav>
+        <!-- <button type="button" class="site-nav_menu is-open">
+        <svg width="40px" height="40px">
+        <use href="./images/symbol-defs.svg#close" class="icon-close"></use>
+        <use href="./images/symbol-defs.svg#menu" class="icon-menu"></use>
+        </svg>
+        </button> -->
         <ul class="list nav-contact">
             <div class="envelope-container">
             <li class="nav-contact__item item-envelope"> 
@@ -44,6 +50,13 @@
                 </div>
             </li>
         </ul>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </button>
     </header>
     </div>
     <main>
@@ -67,8 +80,10 @@
                  </button>
                 <p class="modal__tittle">Залиште свої дані, ми вам передзвонимо</p>
                 <form action="" class="form">
-                    <div class="form__group">
+                        <div class="form__label">
                     <label for="Ім'я" class="form__name">Ім'я</label>
+                        </div>
+                        <div class="form__group">
                     <div class="form__group-1">
                     <input type="text" name="Ім'я" id="Ім'я" required class="form__svg-position" placeholder=" ">
                     <svg class="form__person">
@@ -76,8 +91,10 @@
                     </svg>
                     </div>
                 </div>
-                    <div class="form__group">
+                    <div class="form__label">
                     <label for="Телефон" class="form__tel">Телефон</label>
+                    </div>
+                    <div class="form__group">
                     <div class="form__group-1">
                         <input type="text" name="Телефон" id="Телефон" required class="form__svg-position" placeholder=" ">
                         <svg class="form__phone">
@@ -85,8 +102,10 @@
                         </svg>
                     </div>
                     </div>
-                        <div class="form__group">
+                        <div class="form__label">
                     <label for="Пошта" class="form__email">Пошта</label>
+                    </div>
+                    <div class="form__group">
                     <div class="form__group-1">
                         <input type="text" name="Пошта" id="Пошта" required class="form__svg-position" placeholder=" ">
                         <svg class="form__mail">
@@ -116,7 +135,7 @@
         <section class="section-description company-section">
             <div class="container">
             <ul class="list company-description">
-                <li class="item">
+                <li class="company-description__item">
                     <div class="antenna-container">
                     <svg class="antenna">
                         <use href="./images/symbol-defs.svg#antenna"></use>
@@ -126,7 +145,7 @@
                     <p class="features-description">Ідейні міркування, і навіть початок повсякденної роботи з формування
                         позиції.</p>
                 </li>
-                <li class="item">
+                <li class="company-description__item">
                     <div class="clock-container">
                     <svg class="clock">
                         <use href="./images/symbol-defs.svg#clock"></use>
@@ -136,7 +155,7 @@
                     <p class="features-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у
                         себе.</p>
                 </li>
-                <li class="item">
+                <li class="company-description__item">
                     <div class="diagram-container">
                     <svg class="diagram">
                         <use href="./images/symbol-defs.svg#diagram"></use>
@@ -145,7 +164,7 @@
                     <h3 class="company-features">ПЛАНУВАННЯ</h3>
                     <p class="features-description">Так само консультація з широким  активом значною мірою зумовлює.</p>
                 </li>
-                <li class="item">
+                <li class="company-description__item">
                     <div class="astronaut-container">
                     <svg class="astronaut">
                         <use href="./images/symbol-defs.svg#astronaut"></use>
@@ -159,7 +178,7 @@
             </div>
         </section>
         <!-- Чим ми займаємося -->
-        <section class="section company">
+        <section class="section-description company">
             <div class="container">
             <h2 class="company__work">Чим ми займаємося</h2>
             <ul class="list company__work-pic">
@@ -318,7 +337,7 @@
             </li>
             <li class="clients__group">
                 <a href="">
-                    <div class="client__container-group">
+                    <div class="client__container-group-2">
                     <svg class="client__group">
                         <use href="./images/symbol-defs.svg#group-2"></use>
                     </svg>
@@ -336,7 +355,7 @@
             </li>
             <li class="clients__group">
                 <a href="">
-                    <div class="client__container-group">
+                    <div class="client__container-group-4">
                     <svg class="client__group">
                         <use href="./images/symbol-defs.svg#group-4"></use>
                     </svg>
@@ -354,7 +373,7 @@
         </li>
             <li class="clients__group">
                 <a href="">
-                    <div class="client__container-group">
+                    <div class="client__container-group-6">
                     <svg class="client__group">
                         <use href="./images/symbol-defs.svg#group-6"></use>
                     </svg>
@@ -368,7 +387,8 @@
     </main>
     <footer class="studio-footer">
         <div class="container foot">
-            <div>
+            <div class="footer__social">
+            <div class="footer__logo">
                 <a href="portfolio.html" class="logo-studio"> <span class="web">Web</span><span
                         class="studio-lower">Studio</span></a>
                         <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
@@ -404,6 +424,7 @@
                 </li>
                 </ul>
             </div>
+            </div>
             <div class="subscribe">
             <p class="subscribe__tittle">Підпишіться на розсилку</p>
             <div class="subscribe__container">
@@ -418,6 +439,56 @@
             </div>
         </div>
     </footer>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg fill="currentColor .site-nav_menu" width="40" height="40" class="icon-close">
+                <use href="./images/symbol-defs.svg#close"></use>
+                <!-- <use href="./images/symbol-defs.svg#menu" class="icon-menu menu-toggle js-close-menu"></use> -->
+            </svg>
+        </button>
+    
+        <ul class="mobile-menu">
+            <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link link">Студія</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="" class=" mobile-menu__link link">Портфоліо</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="" class=" mobile-menu__link ">Контакти</a>
+            </li>
+        </ul>
+        <ul class="mobile__contacts list">
+        <li class="mobile__contacts-item">
+        <a href="" class="mobile__contacts-number">+38 096 111 11 11</a>  
+        </li>
+        <li>
+        <a href="" class="mobile__contacts-mail">info@devstudio.com</a>  
+        </li> 
+        </ul>
+        <ul class="mobile__socials list">
+            <li class="mobile__socials-item">
+            <a href="" class="mobile__socials-link">Instagram</a>
+            <span class="mobile__socials-line"></span>
+            </li>
+            <li class="mobile__socials-item">
+             <a href="" class="mobile__socials-link">Twitter</a>
+             <span class="mobile__socials-line"></span>
+            </li>
+            <li class="mobile__socials-item">
+            <a href="" class="mobile__socials-link">Facebook</a>
+            <span class="mobile__socials-line"></span>
+            </li>
+            <li class="mobile__socials-item">
+            <a href="" class="mobile__socials-link">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="./js/mobile-menu.js"></script>
 </body>
 </html>
