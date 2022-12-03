@@ -66,7 +66,8 @@ display: flex;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,8 +84,8 @@ display: flex;
                 border-radius: 4px;
         }
 @media (min-width: 480px) and (max-width:1199px) {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-width: 1200px) {
     margin-left: auto;

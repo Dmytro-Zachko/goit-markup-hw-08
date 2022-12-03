@@ -2,26 +2,58 @@
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url(../images/Img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    // phone screen
+    @media (max-width:767px) {
+    background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)), url(../images/overlay/img_sm@1x.webp);
+    @media (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url(../images/overlay/img_sm@2x.webp);
+                    }
+                                        }
+        // tablet screen
+@media (min-width:768px) {
+background-image: linear-gradient(to right,
+rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)), url(../images/overlay/img_md@1x.webp);
+                
+ @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+ background-image: linear-gradient(to right,
+ rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)), url(../images/overlay/img_md@2x.webp);
+     }
+}
+// desktop screen
+@media (min-width:1200px) {
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url(../images/overlay/img_bg@1x.webp);
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)), url(../images/overlay/img_bg@2x.webp);
+    }
+}
     @media (min-width: 480px) and (max-width:768px) {
-        width: 100%;
         height: 400px;
-        background-size: cover;
-        background-position: center;
     }
     @media (min-width: 768px) and (max-width:1199px) {
         height: 459px;
     }
     @media (min-width: 1200px) {
-        width: 100%;
         height: 600px;
-            background-size: cover;
-            background-position: center;
     }
 }
 
@@ -44,7 +76,7 @@
                 line-height: 1.36;
                 color: #FFFFFF;
                     margin: 0 auto;
-                    padding-top: 118px;
+                    padding-top: 200px;
                     padding-bottom: 30px;
          }
 }
