@@ -6,7 +6,7 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
         width: 450px;
         height: 589px;
     }
@@ -25,7 +25,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
             width: 370px;
             margin-top: 40px;
             margin-bottom: 12px;

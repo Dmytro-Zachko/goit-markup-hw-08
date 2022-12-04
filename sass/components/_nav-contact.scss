@@ -2,7 +2,7 @@
     display: flex;
     margin-left: auto;
     position: relative;
-    @media (min-width: 480px) and (max-width:768px) {
+    @media (min-width: 320px) and (max-width:768px) {
         display: none;
     }
          @media (min-width: 768px) and (max-width: 1199px) {
@@ -10,7 +10,7 @@
              flex-direction: column;
          }
    @media screen and (min-width: 1200px) {
-        display: inline-flex;
+        display: flex;
             margin-left: auto;
             position: relative;
     }
@@ -39,7 +39,6 @@
 
 .nav-contact__adres {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
     color: var(--description-color);
@@ -53,8 +52,11 @@
         color: #2196F3;
     }
          @media (min-width: 768px) and (max-width: 1199px) {
-        margin-left: 40px;
-         }
+            font-size: 12px;
+                font-weight: 500;
+                line-height: 1.15;
+                margin-left: 40px;
+ }
 }
 
 .nav-contact__number {
@@ -65,6 +67,11 @@
     color: var(--description-color);
     text-decoration: none;
     width: 142px;
+    @media (min-width: 768px) and (max-width: 1199px) {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.15;
+        }
 }
 
 .nav-contact__envelope {

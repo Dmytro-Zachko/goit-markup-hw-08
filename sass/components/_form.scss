@@ -7,7 +7,7 @@ form {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
         align-items: center;
     }
          @media (min-width: 1200px) {
@@ -27,7 +27,7 @@ textarea {
         border-color: #2196F3;
             outline: none;
     }
- @media (min-width: 480px) and (max-width:1199px) {
+ @media (min-width: 320px) and (max-width:1199px) {
     width: 370px;
     margin-left: 40px;
  }
@@ -95,7 +95,7 @@ textarea {
         border-color: #2196F3;
             outline: none;
     }
-        @media (min-width: 480px) and (max-width:1199px) {
+        @media (min-width: 320px) and (max-width:1199px) {
             width: 370px;
         }
                  @media (min-width: 1200px) {
@@ -160,7 +160,7 @@ input {
     letter-spacing: 0.01em;
     color: #757575;
     margin-bottom: 4px;
-@media (min-width: 480px) and (max-width:1199px) {
+@media (min-width: 320px) and (max-width:1199px) {
         margin-left: 40px;
     }
    @media (min-width: 1200px) {
@@ -183,7 +183,7 @@ textarea::placeholder {
     padding-left: 16px;
 }
 .form__label {
-@media (min-width: 480px) and (max-width:1199px) {
+@media (min-width: 320px) and (max-width:1199px) {
     margin-left: 40px;
 }
 }

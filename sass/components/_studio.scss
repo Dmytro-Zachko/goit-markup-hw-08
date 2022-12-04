@@ -46,7 +46,7 @@ background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4)), url(../images/overlay/img_lg@2x.webp);
     }
 }
-    @media (min-width: 480px) and (max-width:768px) {
+    @media (min-width: 320px) and (max-width:768px) {
         height: 400px;
     }
     @media (min-width: 768px) and (max-width:1199px) {
@@ -65,22 +65,29 @@ background-image: linear-gradient(to right,
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
         width: 360px;
         margin: 0 auto;
-        padding-top: 118px;
-        padding-bottom: 30px;
+        // margin-top: 118px;
+        margin-bottom: 30px;
     }
          @media (min-width: 1200px) {
                 font-size: 44px;
                 line-height: 1.36;
                 color: #FFFFFF;
                     margin: 0 auto;
-                    padding-top: 200px;
-                    padding-bottom: 30px;
+                    // padding-top: 200px;
+                    margin-bottom: 30px;
          }
 }
-
+.studio__section {
+@media (min-width: 320px) and (max-width:1199px) {
+padding-top: 118px;
+}
+ @media (min-width: 1200px) {
+    padding-top: 200px;
+ }
+}
 .backdrop {
     position: fixed;
     top: 0;

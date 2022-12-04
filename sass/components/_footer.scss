@@ -1,7 +1,7 @@
 .foot {
     // display: flex;
     // align-items: baseline;
-    @media (min-width: 480px) and (max-width:768px) {
+    @media (min-width: 320px) and (max-width:768px) {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -14,6 +14,9 @@
         @media (min-width: 1200px) {
             display: flex;
         }
+                @media (min-width: 320px) and (max-width:479px) {
+                    width: 100%;
+                }
 }
 .social__join {
     font-family: 'Roboto';
@@ -24,7 +27,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
         text-align: center;
     }
 }
@@ -38,7 +41,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    @media (min-width: 480px) and (max-width:1199px) {
+    @media (min-width: 320px) and (max-width:1199px) {
             margin-bottom: 20px;
             width: 207px;
         }
@@ -68,6 +71,9 @@
     @media (min-width: 768px) and (max-width:1199px) {
     margin-left: 159px;
         }
+    @media (min-width: 320px) and (max-width:479px) {
+width: 100%;
+    }
 }
 
 .subscribe__input::placeholder {
@@ -98,7 +104,10 @@
                  @media (min-width: 1200px) {
                      margin-left: 12px;
                  }
-
+@media (min-width: 320px) and (max-width: 479px) {
+margin-left: 60px;
+margin-top: 20px;
+}
 }
 
 .subscribe__discription {
@@ -138,7 +147,7 @@
 }
 
 .social {
-    @media (min-width: 480px) and (max-width:768px) {
+    @media (min-width: 320px) and (max-width:768px) {
         margin-bottom: 60px;
     }
         @media (min-width: 768px) and (max-width:1199px) {
@@ -156,7 +165,7 @@
     letter-spacing: 0.03em;
     color: #fff;
     width: 231px;
-    @media (min-width: 480px) and (max-width: 1199px) {
+    @media (min-width: 320px) and (max-width: 1199px) {
         line-height: 1.15;
         padding-left: 15px;
         margin-bottom: 12px;
@@ -197,7 +206,7 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     width: 231px;
-    @media (min-width: 480px) and (max-width:768px) {
+    @media (min-width: 320px) and (max-width:768px) {
     line-height: 1.15;
     }
 }
@@ -205,6 +214,9 @@
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media (min-width: 320px) and (max-width:479px) {
+        width: 100%;
+    }
  }
 .logo-studio {
     display: inline-block;
@@ -223,7 +235,7 @@
     color: #ffffff;
 }
 .footer__logo {
-@media (min-width: 480px) and (max-width:1199px) {
+@media (min-width: 320px) and (max-width:1199px) {
         display: flex;
         flex-direction: column;
         align-items: center;
